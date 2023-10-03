@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.0">
+    <file name="example.php">
+        <error line="5" column="10" severity="error" message="Avoid unused local variables such as '$unusedVariable'." source="UnusedLocalVariable"/>
+        <error line="10" column="15" severity="warning" message="Variable name 'badVariableName' must match pattern '^[a-z][a-zA-Z0-9]*$'." source="LocalVariableName"/>
+        <!-- Add more error entries as needed -->
+    </file>
+    <!-- Add more <file> entries for additional files -->
+</checkstyle>
+
