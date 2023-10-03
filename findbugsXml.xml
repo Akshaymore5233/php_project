@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BugCollection>
-    <BugInstance type="DE_MIGHT_IGNORE" priority="2" rank="17" abbrev="DMI" category="STYLE">
-        <SourceLine classname="com.example.ExampleClass" sourcefile="ExampleClass.java" start="42" end="42"/>
-        <Message>
-            <ShortMessage>Ignoring exceptional return value of method</ShortMessage>
-            <LongMessage>The return value of a method that returns a mutable object is being ignored.  It should be checked to ensure that the object is not modified in unexpected ways.</LongMessage>
-        </Message>
+    <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="1" rank="20" abbrev="DLS" category="BAD_PRACTICE" instanceHash="a53ce8e73ad4b0a3a25be601f36505c4">
+        <ShortMessage>Dead store to local variable</ShortMessage>
+        <LongMessage>Dead store to local variable.</LongMessage>
+        <Class classname="com.example.SampleClass" primary="true">
+            <SourceLine classname="com.example.SampleClass" start="10" end="10">
+                <Message>Dead store to local variable</Message>
+                <SourceLineStart>
+                    <![CDATA[10]]>
+                </SourceLineStart>
+            </SourceLine>
+        </Class>
     </BugInstance>
-    
-    <BugInstance type="ICAST_INTEGER_MULTIPLY_CAST_TO_LONG" priority="3" rank="13" abbrev="ICAST" category="BAD_PRACTICE">
-        <SourceLine classname="com.example.AnotherClass" sourcefile="AnotherClass.java" start="101" end="101"/>
-        <Message>
-            <ShortMessage>Result of integer multiplication cast to long</ShortMessage>
-            <LongMessage>This code casts the result of multiplying two integers to a long. The resulting value is likely to be incorrect because the multiplication is done in 32-bit arithmetic before the cast.</LongMessage>
-        </Message>
-    </BugInstance>
-
-    <!-- Add more BugInstance entries for additional issues -->
+    <!-- Add more <BugInstance> entries for additional issues -->
 </BugCollection>
