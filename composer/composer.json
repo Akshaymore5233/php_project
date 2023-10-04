@@ -1,0 +1,15 @@
+{
+    "require-dev": {
+        "slevomat/coding-standard": "^8.13",
+        "wp-coding-standards/wpcs": "^3.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    },
+    "require": {
+        "squizlabs/php_codesniffer": "*",
+        "pdepend/pdepend": "@stable"
+    }
+}
