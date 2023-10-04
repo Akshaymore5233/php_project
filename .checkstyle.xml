@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="3.6.2">
+<file name="/var/lib/jenkins/workspace/code_analysis/wordpress/index.php">
+ <error line="7" column="2" severity="warning" message="PHP version not specified" source="PEAR.Commenting.FileComment.MissingVersion"/>
+ <error line="7" column="2" severity="error" message="Missing @category tag in file comment" source="PEAR.Commenting.FileComment.MissingCategoryTag"/>
+ <error line="7" column="2" severity="error" message="Missing @author tag in file comment" source="PEAR.Commenting.FileComment.MissingAuthorTag"/>
+ <error line="7" column="2" severity="error" message="Missing @license tag in file comment" source="PEAR.Commenting.FileComment.MissingLicenseTag"/>
+ <error line="7" column="2" severity="error" message="Missing @link tag in file comment" source="PEAR.Commenting.FileComment.MissingLinkTag"/>
+ <error line="14" column="1" severity="error" message="Space after opening parenthesis of function call prohibited" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="14" column="31" severity="error" message="Expected 0 spaces before closing parenthesis; 1 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="16" column="1" severity="error" message="The open comment tag must be the only content on the line" source="Generic.Commenting.DocComment.ContentAfterOpen"/>
+ <error line="16" column="5" severity="error" message="Doc comment short description must be on the first line" source="Generic.Commenting.DocComment.SpacingBeforeShort"/>
+ <error line="16" column="50" severity="error" message="The close comment tag must be the only content on the line" source="Generic.Commenting.DocComment.ContentBeforeClose"/>
+ <error line="34" column="1" severity="error" message="Space after opening parenthesis of function call prohibited" source="PEAR.Functions.FunctionCallSignature.SpaceAfterOpenBracket"/>
+ <error line="34" column="31" severity="error" message="Expected 0 spaces before closing parenthesis; 1 found" source="PEAR.Functions.FunctionCallSignature.SpaceBeforeCloseBracket"/>
+ <error line="36" column="1" severity="error" message="The open comment tag must be the only content on the line" source="Generic.Commenting.DocComment.ContentAfterOpen"/>
+ <error line="36" column="5" severity="error" message="Doc comment short description must be on the first line" source="Generic.Commenting.DocComment.SpacingBeforeShort"/>
+ <error line="36" column="50" severity="error" message="The close comment tag must be the only content on the line" source="Generic.Commenting.DocComment.ContentBeforeClose"/>
+</file>
+</checkstyle>
+
