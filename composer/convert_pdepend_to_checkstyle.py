@@ -2,8 +2,8 @@ import xml.etree.ElementTree as ET
 import sys
 
 # Define the input and output file paths
-input_file = '/var/lib/jenkins/workspace/pdepend/composer/pdepend_summary.xml'  # Replace with your input file path
-output_file = '/var/lib/jenkins/workspace/pdepend/composer/pdepend_checkstyle_report.xml'  # Replace with your desired output file path
+input_file = '/var/lib/jenkins/workspace/checkstyle_php_loc_pdepend/composer/pdepend_summary.xml'  # Replace with your input file path
+output_file = '/var/lib/jenkins/workspace/checkstyle_php_loc_pdepend/composer/pdepend_checkstyle_report.xml'  # Replace with your desired output file path
 
 # Create a Checkstyle XML structure
 checkstyle = ET.Element('checkstyle')
