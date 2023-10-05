@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="Custom Ruleset">
+    <description>Custom PHPMD Ruleset</description>
+    <exclude-pattern>*Test.php</exclude-pattern>
+    <rule ref="ruleset.xml"/>
+    <!-- Add more rules here -->
+</ruleset>
+
