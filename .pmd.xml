@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd>
+    <file name="ExampleClass.java">
+        <violation beginline="5" endline="5" rule="AvoidBranchingStatementAsLastInLoop" ruleset="Basic Rules" package="com.example">
+            Avoid using branching statements such as 'break' or 'return' as the last statement in a loop.
+        </violation>
+        <violation beginline="10" endline="10" rule="UnusedLocalVariable" ruleset="Basic Rules" package="com.example">
+            Variable 'unusedVariable' is not used.
+        </violation>
+    </file>
+    
+    <file name="AnotherClass.java">
+        <violation beginline="15" endline="15" rule="ExcessiveMethodLength" ruleset="Code Size Rules" package="com.example">
+            Method 'exampleMethod' has a length of 100 lines. It should be shorter.
+        </violation>
+    </file>
+    
+    <!-- Add more <file> entries and <violation> entries for additional issues -->
+</pmd>

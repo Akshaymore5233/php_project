@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'b204d0d2a5829ad1c4c59b71e95af0db1194ee74',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'b204d0d2a5829ad1c4c59b71e95af0db1194ee74',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phpstan/phpstan' => array(
+            'pretty_version' => '1.10.37',
+            'version' => '1.10.37.0',
+            'reference' => '058ba07e92f744d4dcf6061ae75283d0c6456f2e',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpstan/phpstan',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+        'phpstan/phpstan-phpunit' => array(
+            'pretty_version' => '1.3.14',
+            'version' => '1.3.14.0',
+            'reference' => '614acc10c522e319639bf38b0698a4a566665f04',
+            'type' => 'phpstan-extension',
+            'install_path' => __DIR__ . '/../phpstan/phpstan-phpunit',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
+    ),
+);
