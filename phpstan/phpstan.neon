@@ -1,19 +1,14 @@
 includes:
   - vendor/phpstan/phpstan-phpunit/extension.neon
 
-#parameters:
-#  level: max
- # paths:
-  #  - src
- # excludes_analyse:
-  #  - tests
- # checkMissingIterableValueType: false
-
 parameters:
   level: max
   paths:
-    - /var/lib/jenkins/workspace/code_analysis/wordpress
+    - /var/lib/jenkins/workspace/phpstan_findbugs/wordpress
   excludePaths:
     - tests
   checkMissingIterableValueType: false
+
+#report:
+ # xml: /home/addweb/phpstan_checkstyle_report.xml
 
