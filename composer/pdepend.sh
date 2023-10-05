@@ -1,5 +1,5 @@
 #! /bin/bash
-cd /var/lib/jenkins/workspace/code_analysis/composer
+cd /var/lib/jenkins/workspace/pdepend/composer
 
-pdepend --jdepend-xml=report.xml /var/lib/jenkins/workspace/pdepend/wordpress/index.php
+pdepend --jdepend-xml=report.xml /var/lib/jenkins/workspace/pdepend/wordpress/
 cat report.xml
