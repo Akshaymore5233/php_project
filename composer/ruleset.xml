@@ -1,8 +1,6 @@
-<?xml version="1.0"?>
-<ruleset name="Custom Ruleset">
-    <description>Custom PHPMD Ruleset</description>
-    <exclude-pattern>*Test.php</exclude-pattern>
-    <rule ref="ruleset.xml"/>
-    <!-- Add more rules here -->
-</ruleset>
+<rule ref="ruleset.xml">
+    <properties>
+        <property name="cache" value="/path/to/cache" />
+    </properties>
+</rule>
 

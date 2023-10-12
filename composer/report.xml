@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pmd version="@package_version@" tool="phpmd" timestamp="2023-10-12T12:55:39+00:00">
+  <error filename="" msg="Unexpected token: ;, line: 34, col: 32, file: /var/lib/jenkins/workspace/code_analysis/wordpress/index.php.
+#0 /usr/share/php/PDepend/Source/Language/PHP/AbstractPHPParser.php(7460): PDepend\Source\Parser\UnexpectedTokenException-&gt;__construct()
+#1 /usr/share/php/PDepend/Source/Language/PHP/AbstractPHPParser.php(7428): PDepend\Source\Language\PHP\AbstractPHPParser-&gt;getUnexpectedTokenException()
+#2 /usr/share/php/PDepend/Source/Language/PHP/AbstractPHPParser.php(2308): PDepend\Source\Language\PHP\AbstractPHPParser-&gt;consumeToken()
+#3 /usr/share/php/PDepend/Source/Language/PHP/AbstractPHPParser.php(2838): PDepend\Source\Language\PHP\AbstractPHPParser-&gt;parseConditionalExpression()
+#4 /usr/share/php/PDepend/Source/Language/PHP/AbstractPHPParser.php(6214): PDepend\Source\Language\PHP\AbstractPHPParser-&gt;parseOptionalExpression()
+#5 /usr/share/php/PDepend/Source/Language/PHP/AbstractPHPParser.php(397): PDepend\Source\Language\PHP\AbstractPHPParser-&gt;parseOptionalStatement()
+#6 /usr/share/php/PDepend/Engine.php(587): PDepend\Source\Language\PHP\AbstractPHPParser-&gt;parse()
+#7 /usr/share/php/PDepend/Engine.php(335): PDepend\Engine-&gt;performParseProcess()
+#8 /usr/share/php/PHPMD/Parser.php(95): PDepend\Engine-&gt;analyze()
+#9 /usr/share/php/PHPMD/PHPMD.php(240): PHPMD\Parser-&gt;parse()
+#10 /usr/share/php/PHPMD/TextUI/Command.php(131): PHPMD\PHPMD-&gt;processFiles()
+#11 /usr/share/php/PHPMD/TextUI/Command.php(184): PHPMD\TextUI\Command-&gt;run()
+#12 /usr/bin/phpmd(61): PHPMD\TextUI\Command::main()
+#13 {main}" />
+</pmd>
